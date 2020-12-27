@@ -21,3 +21,22 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+
+
+SIDE NOTES
+
+
+
+when your dealing with a text area in react, like for messaging, or shit like that you DONT use <textarea> or other tags like that.. example <text> </text> You dont do that, in react you reset the value of the prop. Example, in state use state type of shit. You reset it with this "value={inputState.value}" example, 
+
+textarea
+  id = {props.id}
+  rows = (props.rows || 3)
+  onChange = {changeHandler}
+  value = {inputState.value}
+
+
+  return()
