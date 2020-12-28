@@ -28,9 +28,9 @@ yarn-error.log*
 
 SIDE NOTES
 
+___________________________
 
-
-when your dealing with a text area in react, like for messaging, or shit like that you DONT use <textarea> or other tags like that.. example <text> </text> You dont do that, in react you reset the value of the prop. Example, in state use state type of shit. You reset it with this "value={inputState.value}" example, 
+when your dealing with a text area in react, like for messaging, or shit like that you DONT use <textarea> or other tags like that.. example <text> </text> You dont do that, in react you reset the value of the prop. Example, in state use state type of shit. You reset it with this "value={inputState.value}" example,
 
 textarea
   id = {props.id}
@@ -40,3 +40,15 @@ textarea
 
 
   return()
+
+
+
+_______________________
+
+onBlur
+
+
+is used in things like an input field, and its for somrthing important. an important field, maybe in the sign up form or something, what it does when a user click into something, and then stops, like they stopped paying attention, if the click off the line, (somewhere else on the page, ) then red text will show as an alert for them to finish filling it out.
+
+
+______________________________
